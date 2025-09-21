@@ -6,6 +6,43 @@ The complete Online Boutique Application information  can be found in [here](htt
 ## Architecture
 ![Agenttique Architecture](./agenttique/agenttique-arch.png)
 
+## Quickstart (GKE)
+
+### Prerequisite
+1. Python virtual environment
+   ```sh
+   cd /path/to/your/project
+   python3 -m venv venv
+   ```
+   ```
+2. Python packages
+Since this is a python application, make sure you have all required python packages.
+  ```sh
+  pip install google-adk
+  ```
+
+*We will run all the application locally, so you will need your terminal.*
+
+1. Make sure the Online Boutique Application is configured in GKE.
+   Follow all the required steps [here](https://github.com/GoogleCloudPlatform/microservices-demo?tab=readme-ov-file#quickstart-gke).
+
+2. Open connections to All Services
+    Terminal 1:
+    ```sh
+    kubectl port-forward deployment/productcatalogservice 3550:3550
+    ```
+
+    Terminal 2:
+    ```sh
+    kubectl port-forward deployment/cartservice 7070:7070
+    ```
+
+    Terminal 3:
+    ```sh
+    kubectl port-forward deployment/checkoutservice 5050:5050
+    ```
+
+3. Start the Agent Web UI
 <!-- <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p> -->
