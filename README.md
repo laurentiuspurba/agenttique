@@ -13,10 +13,10 @@ The complete Online Boutique Application information  can be found in [here](htt
    python3 -m venv venv
    ```
 2. Python packages
-Since this is a python application, make sure you have all required python packages.
-  ```sh
-  pip install google-adk
-  ```
+   Since this is a python application, make sure you have all required python packages.
+   ```sh
+   pip install google-adk
+   ```
 
 ## Quickstart (GKE)
 *We will run all the application locally, so you will need your terminal.*
