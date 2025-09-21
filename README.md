@@ -6,14 +6,11 @@ The complete Online Boutique Application information  can be found in [here](htt
 ## Architecture
 ![Agenttique Architecture](./agenttique/agenttique-arch.png)
 
-## Quickstart (GKE)
-
-### Prerequisite
+## Prerequisite
 1. Python virtual environment
    ```sh
    cd /path/to/your/project
    python3 -m venv venv
-   ```
    ```
 2. Python packages
 Since this is a python application, make sure you have all required python packages.
@@ -21,6 +18,7 @@ Since this is a python application, make sure you have all required python packa
   pip install google-adk
   ```
 
+## Quickstart (GKE)
 *We will run all the application locally, so you will need your terminal.*
 
 1. Make sure the Online Boutique Application is configured in GKE.
