@@ -1,9 +1,15 @@
 # Agenttique
 
+Agenttique is an agentic Online Boutique Application that was forked from [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo).
+The complete Online Boutique Application information  can be found in [here](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/README.md).
+
+## Architecture
+![Agenttique Architecture](./agenttique/agenttique-arch.png)
 
 <!-- <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p> -->
+<!-- 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
@@ -167,3 +173,4 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
   - [Introduction to Service Management with Istio](https://www.youtube.com/watch?v=wCJrdKdD6UM&feature=youtu.be&t=586)
 - [Google Cloud Next'18 London – Keynote](https://youtu.be/nIq2pkNcfEI?t=3071)
   showing Stackdriver Incident Response Management
+-->
