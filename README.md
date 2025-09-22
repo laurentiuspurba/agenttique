@@ -52,6 +52,21 @@ is located in `external_shipping_tracker` folder.
 
 4. Open http://127.0.0.1:8000 in your browser and select the online_boutique_agent from the drop down
    on the left.
+
+5. Now you can have a conversation with the agent to place an order. Here is an example workflow:
+   ```sh
+   1. First, ask the agent to list the products:
+      > list products
+
+   2. Next, add an item to your cart:
+      > Add 1 of the watch to my cart
+      > Add 1 of the "sunglasses"
+
+   3. Now, tell the agent to show your cart:
+      > Show my cart
+
+   4. Then you can tell the agent to place your order:
+      > Place my order
    
 <!-- <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
