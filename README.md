@@ -40,6 +40,8 @@ The complete Online Boutique Application information  can be found in [here](htt
     kubectl port-forward deployment/checkoutservice 5050:5050
     ```
 
+    *Note:* Make sure to leave all these terminals running.
+
 3. Start the Agent Web UI
 <!-- <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
