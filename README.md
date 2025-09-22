@@ -5,6 +5,8 @@ The complete Online Boutique Application information  can be found in [here](htt
 
 ## Architecture
 ![Agenttique Architecture](./agenttique/agenttique-arch.png)
+The main ADK code resides in this folder `online_boutique_agent`, while the MCP simulation
+is located in `external_shipping_tracker` folder.
 
 ## Prerequisite
 1. Python virtual environment
@@ -25,24 +27,32 @@ The complete Online Boutique Application information  can be found in [here](htt
    Follow all the required steps [here](https://github.com/GoogleCloudPlatform/microservices-demo?tab=readme-ov-file#quickstart-gke).
 
 2. Open connections to All Services
-    Terminal 1:
-    ```sh
-    kubectl port-forward deployment/productcatalogservice 3550:3550
-    ```
+   Terminal 1:
+   ```sh
+   kubectl port-forward deployment/productcatalogservice 3550:3550
+   ```
 
-    Terminal 2:
-    ```sh
-    kubectl port-forward deployment/cartservice 7070:7070
-    ```
+   Terminal 2:
+   ```sh
+   kubectl port-forward deployment/cartservice 7070:7070
+   ```
 
-    Terminal 3:
-    ```sh
-    kubectl port-forward deployment/checkoutservice 5050:5050
-    ```
+   Terminal 3:
+   ```sh
+   kubectl port-forward deployment/checkoutservice 5050:5050
+   ```
 
-    *Note:* Make sure to leave all these terminals running.
+   *Note:* Make sure to leave all these terminals running.
 
 3. Start the Agent Web UI
+   In your Terminal 4, start the agent's web interface:
+   ```sh
+   adk web
+   ```
+
+4. Open http://127.0.0.1:8000 in your browser and select the online_boutique_agent from the drop down
+   on the left.
+   
 <!-- <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p> -->
